@@ -1,0 +1,15 @@
+[client]
+showErrorDetails = true
+showSiderbarNavigation = true
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+
+[logger]
+level = "info"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
