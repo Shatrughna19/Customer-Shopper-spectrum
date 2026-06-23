@@ -27,8 +27,7 @@ final/
 │   ├── 2_Clustering.py                 # RFM segmentation predictor
 │   └── 3_Recommendation.py             # Product similarity recommender
 ├── CustomerEDA.ipynb                   # Exploratory Data Analysis notebook
-├── train_spectrum_model.py             # Model training script
-├── requirements.txt                    # Python dependencies
+├── train_spectrum_model.py             # Model training                        script                   # Python dependencies
 ├── data/
 │   ├── online_retail_cleaned.csv       # Cleaned transaction data
 │   ├── rfm_features.csv                # RFM metrics for all customers
@@ -277,44 +276,17 @@ print(f"Customer Cluster: {cluster}")
 
 ---
 
-## 🔮 Future Improvements
 
-- [ ] Implement real-time model retraining pipeline
-- [ ] Add customer lifetime value (CLV) forecasting
-- [ ] Support for multiple clustering algorithms (DBSCAN, Hierarchical)
-- [ ] Deploy to AWS/GCP for production use
-- [ ] Add A/B testing framework for segment strategies
-- [ ] Implement deep learning for embeddings-based recommendations
-- [ ] Create REST API for model serving
-- [ ] Add data quality monitoring and alerts
+
+
+
+
 
 ---
 
-## 📄 License
 
-MIT License - See LICENSE file for details
 
----
 
-## 👤 Author
-
-Created for customer intelligence & e-commerce analytics
-
----
-
-## 📧 Support
-
-For questions or issues, please open an GitHub issue or contact the maintainers.
-
----
-
-## 🙏 Acknowledgments
-
-- Dataset: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
-- Inspiration: RFM segmentation best practices in retail analytics
-- Tools: Streamlit, Scikit-learn open-source communities
-
----
 
 **Last Updated:** June 2026  
-**Status:** ✅ Production Ready
+
